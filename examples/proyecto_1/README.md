@@ -10,8 +10,9 @@ de memoria y VFS.
   - El programa debe obtener el tamaño del buffer de lectura desde la línea
     de comando.
 
-  eg.
-  ````bash
+  eg:
+
+  ```bash
   $ ./read_file archivo.txt 200
   ```
 
