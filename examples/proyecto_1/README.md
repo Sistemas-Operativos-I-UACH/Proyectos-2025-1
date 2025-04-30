@@ -9,6 +9,7 @@ de memoria y VFS.
   - El prgrama debe obtener el archivo a leer desde la línea de comando
   - El programa debe obtener el tamaño del buffer de lectura desde la línea
     de comando.
+  - El programa debe de imprimir el archivo en la salida estándar.  
   - El programa debe listar los procesos activos del sistema y mostrar si un
     proceso es de usuario o de kernel.
 
