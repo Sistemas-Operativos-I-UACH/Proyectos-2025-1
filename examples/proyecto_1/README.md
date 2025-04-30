@@ -9,6 +9,8 @@ de memoria y VFS.
   - El prgrama debe obtener el archivo a leer desde la línea de comando
   - El programa debe obtener el tamaño del buffer de lectura desde la línea
     de comando.
+  - El programa debe listar los procesos activos del sistema y mostrar si un
+    proceso es de usuario o de kernel.
 
   eg:
 
@@ -19,4 +21,5 @@ de memoria y VFS.
 - Crear un documento o una presentación explicando el funcionamiento, el código y
   las llamadas a kernel.
 
-- Presentar el trabajo en el examen.
+
+- Presentar el trabajo en el examen que se realizará el miércoles 7 de mayo de 2025.
