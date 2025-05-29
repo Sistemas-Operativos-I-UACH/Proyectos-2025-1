@@ -1,4 +1,4 @@
-# Proyectos Sistemas Operativos I 2024-1
+# Proyectos Sistemas Operativos I 2025-1
 
 # Test Kernel Module
 This is a test kernel module
@@ -14,7 +14,7 @@ This is a test kernel module
 On a Fedora system install the `Development Tools`  and the `C Development Tools and Libraries`.
 
 ```
-~$ sudo dnf groupinstall -y 'Development Tools' 'C Development Tools and Libraries'
+~$ sudo dnf group install -y 'Development Tools' 'C Development Tools and Libraries'
 ~$ sudo dnf install -y kernel-headers kernel-devel
 ```
 
@@ -78,23 +78,29 @@ This module registers a device major number but it does not create the device. C
 
 ### Test the module
 
+
+* **Read**
+
 ```
 ~$ cat /dev/super_module
 ```
 
-
+* **Write**
+```
+~$ echo "TEST" > /dev/super_module
+```
 ### Git Basic commands
 
 **Clone this repository**
 
 ```
-~$ git clone git@github.com:Sistemas-Operativos-I-UACH/test_kernel_module.git
+~$ git clone git@github.com:Sistemas-Operativos-I-UACH/Proyectos-2025-1.git
 ```
 
 **Use a branch other than *main***
 
 ```
-~$ git checkout *yourbranch*
+~$ git checkout -b *yourbranch*
 ```
 
 **Add a file to next commit**
